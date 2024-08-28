@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: rgb(208, 234, 184);
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(251, 153, 186);
+    width: 100%;
+    flex-direction:unset;
+    justify-content: space-between;
+    
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: "Noto Serif", serif;
+    font-size: 33px;
+    color: rgb(151, 4, 124);
+    justify-content: right;
+    height: 60px;
+}
+
+header ul li{
+    margin: 12px;
+}
+
+img{
+    width: 300px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-variant: initial;
+    color: rgba(211, 27, 202, 0.951);
+    margin: 12px;
+}
+
+p{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(1, 24, 18, 0.921);
+    margin: 12px;
+}
+
+.Bdy{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10 px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgba(237, 250, 117, 0.738);
+}
+
+.caja{
+width: 100%;
+display: flex;
+padding: 10px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+image-resolution: 300px;
+}
+
+footer{
+    background-color: rgba(255, 0, 187, 0.844);
+}
+
